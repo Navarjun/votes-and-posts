@@ -1,0 +1,38 @@
+.axis {
+  .tick {
+    line {
+      stroke-width: 0px;
+      fill: none;
+    }
+    text {
+      font-size: 0.7em;
+      stroke-width: 0px;
+    }
+  }
+  path {
+    fill: none;
+    stroke-width: 0px;
+  }
+}
+
+.timeline-tootip {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #fff;
+
+  iframe {
+    width: 500px;
+    height: 500px;
+    border-width: 0px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px grey;
+  }
+}
+
+circle.highlightCircle {
+  stroke: #000;
+  stroke-width: 2px;
+  opacity: 1;
+}

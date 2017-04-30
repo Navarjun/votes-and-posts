@@ -1,0 +1,17 @@
+.canvas0 {
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+.content{ margin: 50px auto;}
+
+.accumulatedVotes path {
+  fill: none;
+  /*stroke: black;*/
+}
+
+.axis path {
+  fill: none;
+  stroke: "#888888";
+  stroke-width: 2px;
+}

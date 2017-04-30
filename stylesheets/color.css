@@ -1,0 +1,70 @@
+/*new*/
+.tedcruz {
+ stroke: #F35644 ;
+ fill: #F35644 ;
+}
+
+.marcorubio {
+ stroke: #3366cc ;
+ fill: #3366cc ;
+}
+
+.bencarson {
+ stroke: #dc3912 ;
+ fill: #dc3912 ;
+}
+
+.johnkasich {
+ stroke: #ff9900 ;
+ fill: #ff9900 ;
+}
+
+.donaldtrump {
+ stroke: #109618 ;
+ fill: #109618 ;
+}
+
+.hillaryclinton {
+ stroke: #990099 ;
+ fill: #990099 ;
+}
+
+.berniesanders {
+ stroke: #0099c6 ;
+ fill: #0099c6 ;
+}
+
+.tedcruz path {
+ stroke: #F35644 ;
+ /*fill: #F35644 ;*/
+}
+
+.marcorubio path{
+ stroke: #3366cc ;
+ /*fill: #3366cc ;*/
+}
+
+.bencarson path{
+ stroke: #dc3912 ;
+ /*fill: #dc3912 ;*/
+}
+
+.johnkasich path{
+ stroke: #ff9900 ;
+ /*fill: #ff9900 ;*/
+}
+
+.donaldtrump path{
+ stroke: #109618 ;
+ /*fill: #109618 ;*/
+}
+
+.hillaryclinton *{
+ stroke: #990099 ;
+ /*fill: #990099 ;*/
+}
+
+.berniesanders path{
+ stroke: #0099c6 ;
+ /*fill: #0099c6 ;*/
+}

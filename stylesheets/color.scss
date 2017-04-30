@@ -1,0 +1,121 @@
+$tedcruz: #F35644;
+$marcorubio: #3366cc;
+$bencarson: #dc3912;
+$johnkasich: #ff9900;
+$donaldtrump: #109618;
+$hillaryclinton: #990099;
+$berniesanders: #0099c6;
+
+.marcorubio {
+    stroke: $marcorubio;
+    fill: $marcorubio;
+}
+.bencarson {
+    stroke: $bencarson;
+    fill: $bencarson;
+}
+.johnkasich {
+    stroke: $johnkasich;
+    fill: $johnkasich;
+}
+.donaldtrump {
+    stroke: $donaldtrump;
+    fill: $donaldtrump;
+}
+.hillaryclinton {
+    stroke: $hillaryclinton;
+    fill: $hillaryclinton;
+}
+.tedcruz {
+  stroke: $tedcruz;
+  fill: $tedcruz;
+}
+.berniesanders {
+    stroke: $berniesanders;
+    fill: $berniesanders;
+}
+.tedcruz path {
+    stroke: $tedcruz;
+    /*fill: #F35644 ;*/
+}
+.marcorubio path {
+    stroke: $marcorubio;
+    /*fill: #3366cc ;*/
+}
+.bencarson path {
+    stroke: $bencarson;
+    /*fill: #dc3912 ;*/
+}
+.johnkasich path {
+    stroke: $johnkasich;
+    /*fill: #ff9900 ;*/
+}
+.donaldtrump path {
+    stroke: $donaldtrump;
+    /*fill: #109618 ;*/
+}
+.hillaryclinton path {
+    stroke: $hillaryclinton;
+    /*fill: #990099 ;*/
+}
+.berniesanders path {
+    stroke: $berniesanders;
+    /*fill: #0099c6 ;*/
+}
+.tedcruz circle {
+    fill: $tedcruz;
+    opacity: 0.7;
+}
+.marcorubio circle {
+    fill: $marcorubio;
+    opacity: 0.7;
+}
+.bencarson circle {
+    fill: $bencarson;
+    opacity: 0.7;
+}
+.johnkasich circle {
+    fill: $johnkasich;
+    opacity: 0.7;
+}
+.donaldtrump circle {
+    fill: $donaldtrump;
+    opacity: 0.7;
+}
+.hillaryclinton circle {
+    fill: $hillaryclinton;
+    opacity: 0.7;
+}
+.berniesanders circle {
+    fill: $berniesanders;
+    opacity: 0.7;
+}
+
+text.tedcruz {
+  stroke: none;
+  fill: $tedcruz;
+};
+text.marcorubio {
+  stroke: none;
+  fill: $marcorubio;
+};
+text.bencarson {
+  stroke: none;
+  fill: $bencarson;
+};
+text.johnkasich {
+  stroke: none;
+  fill: $johnkasich;
+};
+text.donaldtrump {
+  stroke: none;
+  fill: $donaldtrump
+};
+text.hillaryclinton {
+  stroke: none;
+  fill: $hillaryclinton;
+};
+text.berniesanders {
+  stroke: none;
+  fill: $berniesanders;
+};

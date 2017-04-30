@@ -1,0 +1,58 @@
+.canvas0 {
+    height: 350px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.content{ margin: 50px auto;}
+
+.axis path {
+  fill: none;
+}
+
+.candidatesPosts line {
+  stroke-width:1;
+}
+
+.candidatesPosts circle {
+  opacity: 0.5;
+}
+
+.tedcruz {
+  stroke: #F35644;
+  fill: #F35644;
+}
+
+.marcorubio {
+  stroke: #ED7164;
+  fill: #ED7164;
+}
+
+.bencarson {
+  stroke: #ED9C93;
+  fill: #ED9C93;
+}
+
+.johnkasich {
+  stroke: #F9B7B2;
+  fill: #F9B7B2;
+}
+
+.donaldtrump {
+  stroke: #AD1C0C;
+  fill: #AD1C0C;
+}
+
+.hillaryclinton {
+  stroke: #5258F7;
+  fill: #5258F7;
+}
+
+.berniesanders {
+  stroke: #1821FF;
+  fill: #1821FF;
+}
+
+.circlesGroup {
+  opacity: 0.5;
+}

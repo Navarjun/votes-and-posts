@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>final project</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/stylesheets/style.css" rel="stylesheet" />
+  <link href="/stylesheets/color.min.css" rel="stylesheet" />
+  <link href="/stylesheets/style.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+      <div class="row">
+        <h1>Votes & Posts &mdash; US Presidential Election Candidates</h1>
+        <div class="intro col-md-offset-6 col-md-6 col-sm-6">The United States' Presidential Election 2016, scheduled for Tuesday, November 8, 2016, will be the 58th quadrennial U.S. election. Voters will select presidential electors who in turn will elect a new president and vice president through the Electoral
+          College. The series of presidential primary elections and caucuses is taking place between February 1 and June 14,2016 among the 50 states, the District of Columbia and U.S. territories.
+        </div>
+      </div>
+      <div class="row">
+        <h3>Candidates Instagram Profiles</h3>
+        <div class="row">
+          <div class="intro col-md-6 col-sm-6">
+            As an online mobile image-sharing and video-sharing social networking service, Instagram has more than 400 millions daily-active users. Take an example of those 7 candidates of the election shown below, it is interesting to see the connection
+            between their actually votes during election and their popularity on social media.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="canvas0" id="USCandids"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+        <h3>Candidates Election Votes & Posts</h3>
+        The following timeline represents 3 things:
+        <ul>
+          <li>Commulative number of votes in the stepped line graph</li>
+          <li>Candidates who dropped out and when </li>
+          <li>The number of instagram posts on each day represented by number of circles. Size of the circle represents number of likes on that posts. </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 canvas" id="ElectionMaps">
+          <div class="timeline-tootip">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="/javascripts/lib/d3.min.js" charset="utf-8"></script>
+    <script src="/javascripts/lib/d3.tip.js" charset="utf-8"></script>
+    <script src="/javascripts/lib/crossfilter.min.js"></script>
+    <script src="/javascripts/lib/d3-queue.min.js" charset="utf-8"></script>
+
+    <script src="/javascripts/d3-modules/staircaseGraph.js"></script>
+    <script src="/javascripts/d3-modules/timelineModule.js"></script>
+
+    <!-- <script src="/javascripts/race.js"></script> -->
+    <script src="/javascripts/candidCircles.js"></script>
+    <script src="/javascripts/primaryDateWiseData.js"></script>
+    <script src="/javascripts/stairCharts.js"></script>
+    <script src="/javascripts/timelineChart.js"></script>
+
+    <script src="/javascripts/script.js"></script>
+
+</body>
+
+</html>

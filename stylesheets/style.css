@@ -1,0 +1,89 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.noOfVotes {
+    fill: #D1D2D1;
+}
+
+.canvas {
+    height: 400px;
+    position: relative;
+}
+
+.canvas0 {
+    height: 600px;
+    /*margin-bottom: 20px;*/
+}
+
+.map-states:hover {
+    fill: none;
+}
+
+.map-states:hover {
+    fill: #DD7744;
+}
+.header-cont{
+    width:100%;
+    position:fixed;
+    top:0px;
+    background-color:
+    rgba(255,255,255,.7);
+    z-index: 2;
+}
+.header {  width:100%;  }
+
+.content{ margin: 30px auto;}
+
+rect.unhighlight {
+    opacity: 0.7;
+}
+
+rect.highlight {
+    opacity: 1;
+}
+
+.candidatesXAxis .tick text {
+    font-size: 0.7em;
+}
+
+.candidatesXAxis path {
+    fill: none;
+}
+
+.steps path {
+  fill: none;
+  stroke: black;
+  stroke-width: 4px;
+  opacity: .7;
+}
+/*tooltip*/
+.tooltip {
+	position: absolute;
+  font-size: 15 px;
+	text-align: left;
+	fill:rgb(120,120,120);
+	font-weight: bold;
+	/*width: 200px;*/
+	/*height: 50px;*/
+	padding: 5px;
+	font: 15px sans-serif;
+	background:rgb(255,255,255);
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;}
+
+.tip-candidate{
+  font-weight:bold;
+}
+
+.tip-vote{
+font-weight: lighter;
+}
+
+.linesG line {
+  stroke: #AAA;
+  stroke-width: 1px;
+  stroke-dasharray: 3, 3;
+}
