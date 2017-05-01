@@ -6,7 +6,7 @@ var margin = {
   b: 10
 }
 // var baseURL = "https://na-instagram-data.appspot-preview.com/"
-var baseURL = "http://www.navarjun.com/pres-election"
+var baseURL = "https://www.navarjun.com/pres-election"
 
 var width = d3.select(".canvas0").node().offsetWidth;
 var height = d3.select(".canvas0").node().offsetHeight - margin.t - margin.b;
