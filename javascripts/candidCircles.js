@@ -45,7 +45,7 @@ function candidCircles(RankfollowersData,USCandids,width,height,margin){
     //images
     def
         .append('image')
-        .attr('xlink:href',function(d){return d.profilePicURL})
+        .attr('xlink:href',function(d){ console.log(d.profilePicURL); return d.profilePicURL})
         .attr("clip-path", "url(#clip)")
         .attr("x", -70)
         .attr("y", -70)

@@ -116,18 +116,18 @@ function dataLoaded(err, followersData, primaryResults, primaryDates) {
   RankfollowersData.forEach(function changeNameImg(d) {
       if (d.username === "realdonaldtrump") {
         d["fullname"] = "Donald Trump";
-        d.profilePicURL="/img/donald-trump.jpg";
+        d.profilePicURL="img/donald-trump.jpg";
       } else if (d.username === "realbencarson") {
         d["fullname"] = "Ben Carson";
-        d.profilePicURL="/img/ben-carson.jpg";
+        d.profilePicURL="img/ben-carson.jpg";
       } else if (d.username === "marcorubiofla") {
         d["fullname"] = "Marco Rubio";
       } else if (d.username === "johnkasich") {
-        d.profilePicURL="/img/john-kasich.jpg";
+        d.profilePicURL="img/john-kasich.jpg";
       } else if (d.username === "hillaryclinton") {
-        d.profilePicURL="/img/hillary-clinton.jpg";
+        d.profilePicURL="img/hillary-clinton.jpg";
       }else if (d.username === "berniesanders") {
-        d.profilePicURL="/img/bernie-sanders.jpg";
+        d.profilePicURL="img/bernie-sanders.jpg";
       }
     })
   //draw the circles of candiates
