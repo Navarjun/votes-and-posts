@@ -99,7 +99,7 @@ Date.daysBetween = function( date1, date2 ) {
 d3_queue.queue()
   .defer(d3.json, baseURL+"/recentFollowersData")
   .defer(d3.csv, "data/primary_results.csv")
-  .defer(d3.csv, "data/date.csv", parseDates)
+  .defer(d3.csv, "/data/date.csv", parseDates)
   .await(dataLoaded);
 
 function parseDates(d) {
