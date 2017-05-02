@@ -56,7 +56,7 @@ var USSeqVotes = ElectionMaps
 
 var eventsTimeline = ElectionMaps.append("g")
   .classed("eventsTimeline", true)
-  .attr("transform", 'translate(' + 0 + ',' + (Height) + ')');;
+  .attr("transform", 'translate(' + 0 + ',' + (Height*14/13) + ')');;
 
 var instagramPostsG = ElectionMaps
   .append("g")
@@ -187,7 +187,7 @@ function dataLoaded(err, followersData, primaryResults, primaryDates) {
   eventsTimeline.append("rect")
     .attr("fill", "rgba(0,0,0,0.05)")
     .attr("width", Width1)
-    .attr("height", Height/2);
+    .attr("height", Height/3);
   eventsTimeline.append("g").selectAll("circle")
     .data(dropoutsData)
     .enter()

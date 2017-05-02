@@ -87,3 +87,49 @@ font-weight: lighter;
   stroke-width: 1px;
   stroke-dasharray: 3, 3;
 }
+
+h1,h2,h3,.CandidName{
+  font-style: normal;
+  font-family: 'Playfair Display script=all rev=1', 'Adobe Blank';
+}
+
+h1{
+  font-size: 6.5em;
+  font-weight: 900;
+}
+h2{
+  font-size: 2.2em;
+  font-weight: 400;
+}
+h3{
+  font-size: 2em;
+  font-weight: 900;
+}
+.intro,.text,.CandidFollower{
+  font-family: 'Raleway script=all rev=1',sans-serif;
+}
+.intro{
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 40px;
+  font-size: 11pt;
+}
+.subTitle{
+  margin-top: -10pt;
+}
+.text{
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12pt;
+}
+.headingH3{
+  margin-top: 20pt;
+}
+.CandidName{
+  font-size: 12pt;
+}
+.CandidFollower{
+  font-weight:300;
+  font-size: 12pt;
+  color:#000;
+}

@@ -73,7 +73,6 @@ function candidCircles(RankfollowersData,USCandids,width,height,margin){
         .attr('transform', 'translate(0,0)')
         .attr('class', 'CandidFollower')
         .style('text-anchor', 'middle')
-        .style('fill', 'rgb(150,150,150)')
         .text(function(d) {
             return d.followers
         })
